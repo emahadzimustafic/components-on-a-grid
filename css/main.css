@@ -47,7 +47,7 @@ nav {
   grid-area: banner;
   align-self: end;
   padding: 1rem;
-  width: 14em;
+  width: 14rem;
   grid-column: 1;
   grid-row: 1;
   margin-bottom: 1rem;
@@ -75,7 +75,7 @@ h2, li {
 
 h2 {
   color: #30658d;
-  margin: 0;
+  margin: 1rem 0 0 0;
 }
 
 p {
