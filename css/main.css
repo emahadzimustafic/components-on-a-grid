@@ -49,8 +49,8 @@ nav {
   width: 14rem;
   grid-column: 1;
   grid-row: 1;
-  margin-bottom: .5rem;
-  margin-left: .5rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
   z-index: 1;
 }
 
