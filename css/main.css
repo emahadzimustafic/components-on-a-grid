@@ -50,8 +50,8 @@ nav {
   width: 16rem;
   grid-column: 1;
   grid-row: 1;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
+  margin-bottom: .5rem;
+  margin-left: .5rem;
   z-index: 1;
 }
 
