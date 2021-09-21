@@ -1,5 +1,8 @@
 html {
   box-sizing: border-box;
+  font-family: "Georgia", serif;
+  line-height: 1.5;
+
 }
 
 *,
@@ -15,4 +18,48 @@ img {
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+}
+
+body {
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "banner banner"
+    "main main";
+  gap: 1rem;
+}
+
+.logo {
+  grid-area: banner;
+  align-self: end;
+  padding: 1rem;
+  width: 14rem;
+}
+
+.pano {
+  grid-area: banner;
+}
+
+.main {
+  grid-area: main;
+}
+
+nav {
+  grid-area: banner;
+
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 1rem;
 }
