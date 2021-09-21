@@ -23,7 +23,7 @@ header {
 body {
   margin: 0;
   padding: 1rem;
-  background-color: #f2f1led;
+  background-color: #f2f1ed;
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -75,7 +75,7 @@ a {
 }
 
 h2, li {
-  font-family:"Patua One", serif;
+  font-family:"Patua One", sans-serif;
 }
 
 h2 {
