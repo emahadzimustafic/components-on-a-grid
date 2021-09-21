@@ -46,7 +46,7 @@ nav {
 .logo {
   grid-area: banner;
   align-self: end;
-  width: 16rem;
+  width: 14rem;
   grid-column: 1;
   grid-row: 1;
   margin-bottom: .5rem;
