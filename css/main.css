@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   font-family: Georgia, serif;
   line-height: 1.5;
-
 }
 
 *,
@@ -33,31 +32,27 @@ body {
   gap: 1rem;
 }
 
+.pano {
+  grid-area: banner;
+}
+
+nav {
+  margin-top: 1rem;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: auto;
+}
+
 .logo {
   grid-area: banner;
   align-self: end;
   padding: 1rem;
-  width: 14rem;
+  width: 14em;
   grid-column: 1;
   grid-row: 1;
   margin-bottom: 1rem;
   margin-left: 1rem;
   z-index: 1;
-}
-
-.pano {
-  grid-area: banner;
-}
-
-.main {
-  grid-area: main;
-}
-
-nav {
-  grid-area: banner;
-  grid-column: 2;
-  grid-row: 1;
-  align-self: auto;
 }
 
 nav ul {
@@ -75,9 +70,18 @@ a {
 }
 
 h2, li {
-  font-family:"Patua One", sans-serif;
+  font-family: "Patua One", sans-serif;
 }
 
 h2 {
   color: #30658d;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 1.5rem;
+}
+
+figure {
+  margin: 0;
 }
