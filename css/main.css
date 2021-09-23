@@ -84,3 +84,15 @@ p {
 figure {
   margin: 0;
 }
+
+main {
+  display: contents;
+}
+
+figure::nth-child(1) {
+  grid-area: col1;
+}
+
+figure::nth-child(2) {
+  grid-area: col2;
+}
